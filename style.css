@@ -1,1 +1,38 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f7f7f7;
+}
 
+#tag-search {
+  margin-bottom: 20px;
+}
+
+#tagInput {
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#monster-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.monster-card {
+  background: white;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.tag {
+  display: inline-block;
+  background: #eee;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin: 2px;
+  font-size: 12px;
+}
